@@ -2,3 +2,5 @@ node_modules/
 dist/
 checkov/*.json
 coverage/
+.jsii
+tsconfig.json

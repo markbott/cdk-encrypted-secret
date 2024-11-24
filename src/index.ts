@@ -20,10 +20,10 @@ import { ARN, parse, validate } from '@aws-sdk/util-arn-parser';
  */
 
 export interface EncryptedSecretProps {
-  secretProps?: SecretProps;
-  existingSecretObj?: Secret;
-  ciphertextBlob: string;
-  keyId: string;
+  readonly secretProps?: SecretProps;
+  readonly existingSecretObj?: Secret;
+  readonly ciphertextBlob: string;
+  readonly keyId: string;
 }
 
 /**
